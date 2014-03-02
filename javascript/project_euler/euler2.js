@@ -5,7 +5,6 @@
 //Calculate the Fib. sequence from 0 - 4,000,000
 var a = 0;
 var b = 1;
-var c = 0;
 var sum = 0;
 
 while( a < 4000000) {
@@ -13,7 +12,7 @@ while( a < 4000000) {
     if( a % 2 === 0){
         sum += a;
     }
-    c = a + b;
+    var c = a + b;
     a = b;
     b = c;
 }
